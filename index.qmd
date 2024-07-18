@@ -1,0 +1,23 @@
+---
+Title: "My first page"
+---
+
+```{r, echo=FALSE}
+
+if(!require(pacman)) installed.packages("pacman")
+pacman::p_load(reactable)
+
+```
+
+```{r, echo=FALSE}
+
+reactable(infert)
+
+```
+
+```{r}
+
+plot(women)
+
+```
+
